@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #41e1ba;
+  /* quando o backgroundd for mudar de cor, vai muda em 300ms */
+  transition: background-color 300ms ease-in-out;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.working {
+  background: #EF5D50;
+}
+
+.hidden {
+  /* quando uma classe for hidden ela não vai ser exibida */
+  display: none;
+}
+
+.pomodoro {
+  background: #fff;
+  margin: 50px 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.pomodoro h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.pomodoro .timer {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.pomodoro .controls {
+  display: flex;
+  align-items: center;
+  /* quando fica mudando muito de tamanhdo de tela, distribui os espaços entre todos botões */
+  justify-content: space-evenly;
+}
+
+.pomodoro button {
+  background: #41e1ba;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  color: #000;
+  transition: background-color 300ms ease-in-out;
+  margin: 20px auto;
+}
+
+/* se tiver uma classe working(ta no body), mudar a cor dos buttons*/
+.working .pomodoro button {
+  background: #EF5D50;
+  color: #fff;
+}
+
+.pomodoro .details {
+  margin: 20px 0;
+}
