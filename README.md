@@ -4,12 +4,18 @@ Aplicação web da técnica de pomodoro desenvolvida para estudar a integração
 
 ## Executar a aplicação
 
-1. git clone deste repositório
+No terminal, clone o projeto:
 
-2. descompactar a aplicação
+`git clone https://github.com/rafaaazevedo/Pomodoro-App.git`
 
-3. no terminal, entrar na pasta do projeto
+Entre na pasta do projeto:
 
-4. instalar node_modules com o comando `npm i`
+`cd Pomodoro-App`
 
-5. executar o projeto com o comando `npm start` 
+Instale as dependências:
+
+`npm i`
+
+Execute a aplicação:
+
+`npm start`
