@@ -12,7 +12,7 @@ Entre na pasta do projeto:
 
 `cd Pomodoro-App`
 
-Instale as dependências:
+Instale as dependências (precisa da instalação do Node.js):
 
 `npm i`
 
